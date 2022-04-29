@@ -1,0 +1,26 @@
+.cartao{
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    margin: 5px;
+
+}
+
+.titulo{
+    padding: 5px 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.conteudo{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    flex: 1;
+    margin: 1px;
+}
